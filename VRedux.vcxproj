@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C2F26816-2A0C-478A-93C8-BEA0E577A1FD}</ProjectGuid>
+    <RootNamespace>VRedux</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>E:\DSDK\Include;C:\Users\Nick\Desktop\l4%28loginov%29\l4\SDKScan\SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\DSDK\Lib\x86;C:\Users\Nick\Desktop\l4%28loginov%29\l4\SDKScan\SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\Nick\Desktop\l4%28loginov%29\l4\SDKScan\SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Nick\Desktop\l4%28loginov%29\l4\SDKScan\SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\PCHelper\Desktop\SDK\SDK\Include;C:\Users\Nick\Desktop\l4%28loginov%29\l4\SDKScan\SDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\PCHelper\Desktop\SDK\SDK\Lib\x86;C:\Users\Nick\Desktop\l4%28loginov%29\l4\SDKScan\SDK\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <OutputFile>iDReeM\SystemBotCheat.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <OutputFile>iDReeM\SystemBotCheat.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>iDReeM\SystemBotCheat.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>iDReeM\SystemBotCheat.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cConfiguration.cpp" />
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\imgui_demo.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="IniReader.cpp" />
+    <ClCompile Include="IniWriter.cpp" />
+    <ClCompile Include="MinHook\src\buffer.c" />
+    <ClCompile Include="MinHook\src\HDE\hde32.c" />
+    <ClCompile Include="MinHook\src\HDE\hde64.c" />
+    <ClCompile Include="MinHook\src\hook.c" />
+    <ClCompile Include="MinHook\src\trampoline.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AimBot.h" />
+    <ClInclude Include="BypassVAC.h" />
+    <ClInclude Include="cConfiguration.h" />
+    <ClInclude Include="CFG.h" />
+    <ClInclude Include="Chams.h" />
+    <ClInclude Include="CheatMenu.h" />
+    <ClInclude Include="checksum_crc.h" />
+    <ClInclude Include="Class.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="CreateMove.h" />
+    <ClInclude Include="cx_fnv1.h" />
+    <ClInclude Include="cx_pcg32.h" />
+    <ClInclude Include="cx_strenc.h" />
+    <ClInclude Include="dt_common.h" />
+    <ClInclude Include="dt_recv.h" />
+    <ClInclude Include="enumer.h" />
+    <ClInclude Include="Events.h" />
+    <ClInclude Include="GameRender.h" />
+    <ClInclude Include="GetInterface.h" />
+    <ClInclude Include="GetNetVar.h" />
+    <ClInclude Include="Glow.h" />
+    <ClInclude Include="HitMarker.h" />
+    <ClInclude Include="hook.h" />
+    <ClInclude Include="ImGuiRender.h" />
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\stb_rect_pack.h" />
+    <ClInclude Include="ImGui\stb_textedit.h" />
+    <ClInclude Include="ImGui\stb_truetype.h" />
+    <ClInclude Include="IniReader.h" />
+    <ClInclude Include="IniWriter.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="MinHook\include\MinHook.h" />
+    <ClInclude Include="MinHook\src\buffer.h" />
+    <ClInclude Include="MinHook\src\HDE\hde32.h" />
+    <ClInclude Include="MinHook\src\HDE\hde64.h" />
+    <ClInclude Include="MinHook\src\HDE\pstdint.h" />
+    <ClInclude Include="MinHook\src\HDE\table32.h" />
+    <ClInclude Include="MinHook\src\HDE\table64.h" />
+    <ClInclude Include="MinHook\src\trampoline.h" />
+    <ClInclude Include="my_trace.h" />
+    <ClInclude Include="OverrideView.h" />
+    <ClInclude Include="PaintTreverse.h" />
+    <ClInclude Include="ProtectDll.h" />
+    <ClInclude Include="SettingsImGui.h" />
+    <ClInclude Include="SoundHook.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SThread.h" />
+    <ClInclude Include="Variables.h" />
+    <ClInclude Include="XorStr.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

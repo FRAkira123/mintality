@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\ImGui">
+      <UniqueIdentifier>{fb79ee32-2ee9-45f6-acc8-33cf92cd7627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\ImGui\ImGuiBase">
+      <UniqueIdentifier>{c14f6f79-e4c7-4fe9-93c3-e02d14e3c88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\CRC">
+      <UniqueIdentifier>{18e3411e-4cfa-4f18-a105-6cc173e97c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameHook">
+      <UniqueIdentifier>{510fd861-ae94-4c06-a3de-dbcd34349fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{5a8ed9f3-dbec-4536-9aca-27de4fc8ab6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Configs">
+      <UniqueIdentifier>{5038d71b-54a6-477a-8690-13b0fb7c6504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AntiVAC">
+      <UniqueIdentifier>{f4ebc4ba-50fb-470b-b055-9c5a3bf02a51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde32.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde64.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>Файлы ресурсов\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="IniWriter.cpp">
+      <Filter>Файлы ресурсов\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="cConfiguration.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectDll.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="GetInterface.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>Файлы исходного кода\ImGui\ImGuiBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsImGui.h">
+      <Filter>Файлы исходного кода\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatMenu.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="my_trace.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="enumer.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_crc.h">
+      <Filter>Файлы ресурсов\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_fnv1.h">
+      <Filter>Файлы ресурсов\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_pcg32.h">
+      <Filter>Файлы ресурсов\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_strenc.h">
+      <Filter>Файлы ресурсов\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common.h">
+      <Filter>Файлы ресурсов\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv.h">
+      <Filter>Файлы ресурсов\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="GetNetVar.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTreverse.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiRender.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBot.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\MinHook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\buffer.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde32.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde64.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\pstdint.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table32.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table64.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\trampoline.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRender.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="OverrideView.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Файлы ресурсов\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>Файлы ресурсов\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="IniWriter.h">
+      <Filter>Файлы ресурсов\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="cConfiguration.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="SThread.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="BypassVAC.h">
+      <Filter>AntiVAC</Filter>
+    </ClInclude>
+    <ClInclude Include="CFG.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="HitMarker.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundHook.h">
+      <Filter>Файлы исходного кода\GameHook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
